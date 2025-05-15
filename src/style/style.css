@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgb(172, 234, 234);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-logo-title {
+    position: relative;
+    display: inline-block;
+    height: 200px;
+
+}
+
+.app-bg-header {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+
+}
+
+.res-name {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.items-listed-container {
+    display: inline-block;
+    margin-top: 100px;
+
+}
+
+#items-listed {}
+
+.add-item-btn {
+    width: 30px;
+    height: 30px;
+    border: 1px slateblue solid;
+    border-radius: 50%;
+}
+
+.add-item-btn:hover {
+    scale: 1.1;
+    box-shadow: 1px 1px 4px black;
+}
+
+.emoji {
+    font-size: 3rem;
+}
+
+.price {
+    font-weight: bold;
+}
