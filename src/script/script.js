@@ -21,6 +21,8 @@ document.addEventListener('click', function (e) {
 });
 
 
+
+
 function handleAddBtn(itemId) {
     const itemTargetObj = menuArray.filter(function (item) {
         return item.id === itemId
