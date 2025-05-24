@@ -9,12 +9,7 @@ const [{ name,
 const container = document.querySelector('.items-listed-container')
 const cartContainer = document.createElement('div');
 cartContainer.classList.add('cart-container');
-document.body.appendChild(cartContainer); // Add it to the body or somewhere specific
-
-
-
-
-
+document.body.appendChild(cartContainer);
 
 
 const cartItems = [];
