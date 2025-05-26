@@ -94,6 +94,9 @@ function handleBuy() {
     alert("Thanks for your purchase!");
     cartItems.length = 0; 
     renderCart(); 
-}
+}     
+
+
+
 
 renderItems();
