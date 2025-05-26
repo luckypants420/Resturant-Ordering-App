@@ -22,7 +22,7 @@ document.addEventListener('click', function (e) {
 });
 
 
-//im just farming at this point.....
+//using the commits as a track to my effrots in the chart
 
 
 
