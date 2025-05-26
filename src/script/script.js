@@ -92,8 +92,8 @@ function renderCart() {
 
 function handleBuy() {
     alert("Thanks for your purchase!");
-    cartItems.length = 0; // Clear the cart
-    renderCart(); // Re-render to clear UI
+    cartItems.length = 0; 
+    renderCart(); 
 }
 
 renderItems();
