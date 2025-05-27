@@ -90,6 +90,8 @@ function renderCart() {
     cartContainer.innerHTML = cartHtml;
 }
 
+
+
 function handleBuy() {
     alert("Thanks for your purchase!");
     cartItems.length = 0; 
