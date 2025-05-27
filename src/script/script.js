@@ -92,6 +92,8 @@ function renderCart() {
 
 
 
+
+
 function handleBuy() {
     alert("Thanks for your purchase!");
     cartItems.length = 0; 
